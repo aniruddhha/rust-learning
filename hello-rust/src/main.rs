@@ -1,13 +1,8 @@
-
-mod function_basics;
-mod variables;
-
-// use variables::variables_demo;
-use variables::constants_demo;
+mod data_types;
+use data_types::data_type_demo1;
+use data_types::compound_type_demo2;
 
 
 fn main() {
-
-//    variables_demo();
-   constants_demo()
+    compound_type_demo2()
 }
