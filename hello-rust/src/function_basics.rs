@@ -6,3 +6,4 @@ pub fn say_hi() {
 pub fn say_hi_msg(nm: String) {
     println!("Hey {nm}");
 }
+

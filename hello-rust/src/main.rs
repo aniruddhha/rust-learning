@@ -1,8 +1,11 @@
-mod data_types;
-use data_types::data_type_demo1;
-use data_types::compound_type_demo2;
+mod raw_pointers;
+mod colsures;
+mod file_handling;
 
+use raw_pointers::*;
+use colsures::*;
+use file_handling::*;
 
 fn main() {
-    compound_type_demo2()
+   read_file_01();
 }
